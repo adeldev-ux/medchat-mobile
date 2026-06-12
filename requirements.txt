@@ -1,0 +1,9 @@
+Flask==3.0.2
+requests==2.31.0
+gunicorn==21.2.0
+flasgger==0.9.7.1
+uvicorn==0.27.0
+python-dotenv==1.0.0
+flask-cors==4.0.0
+flask-socketio==5.3.6
+pymongo==4.6.1
