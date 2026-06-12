@@ -1,0 +1,1084 @@
+{
+  "sensory_processing_disorder": {
+    "overview": {
+      "definition": "Sensory Processing Disorder (SPD) is a dysfunction affecting the adequate reception, modulation, integration, discrimination, or organization of stimuli coming from senses",
+      "definition_ar": "اضطراب المعالجة الحسية (SPD) هو خلل يؤثر على الاستقبال والتنظيم والتكامل والتمييز وترتيب المثيرات القادمة من الحواس المختلفة",
+      "prevalence": {
+        "general_population": "5-19% of children without psychiatric disorders",
+        "general_population_ar": "5-19% من الأطفال بدون اضطرابات نفسية",
+        "autism": "90-95% of children with ASD",
+        "autism_ar": "90-95% من أطفال اضطراب طيف التوحد",
+        "adhd": "40-80%",
+        "adhd_ar": "40-80% من أطفال فرط الحركة وتشتت الانتباه",
+        "specific_language_impairment": "60-80%",
+        "specific_language_impairment_ar": "60-80% من أطفال اضطراب اللغة النوعي",
+        "intellectual_disability": "Variable rates",
+        "intellectual_disability_ar": "نسب متفاوتة"
+      },
+      "dsm5_classification": "Now recognized as a common feature of ASD in DSM-V",
+      "dsm5_classification_ar": "معترف به حاليًا كسمة شائعة في اضطراب طيف التوحد في DSM-5"
+    },
+    "theoretical_frameworks": {
+      "ayres_theory": {
+        "description": "Emphasizes that eight senses should integrate in action with each other for proper processing",
+        "description_ar": "تؤكد أن الحواس الثمانية يجب أن تتكامل مع بعضها للمعالجة السليمة",
+        "key_concept": "Sensory integration dysfunction results from inefficient CNS processing",
+        "key_concept_ar": "خلل التكامل الحسي ينتج عن معالجة غير فعالة في الجهاز العصبي المركزي"
+      },
+      "dunn_framework": {
+        "description": "Sensory processing framework describing how sensations are categorized, understood, and coordinated",
+        "description_ar": "إطار المعالجة الحسية الذي يصف كيفية تصنيف الأحاسيس وفهمها وتنسيقها",
+        "neurological_threshold_continuum": "Balance between habituation and sensitization guarantees appropriate daily functioning",
+        "neurological_threshold_continuum_ar": "التوازن بين التعود والتحسس يضمن الأداء اليومي المناسب"
+      }
+    },
+    "spd_subtypes": {
+      "sensory_modulation_disorder": {
+        "description": "Challenges in grading intensity and type of responses to sensory input",
+        "description_ar": "صعوبة في ضبط شدة ونوع الاستجابة للمثيرات الحسية",
+        "subtypes": [
+          {
+            "name": "Sensory Over-Responsivity (SOR)",
+            "name_ar": "فرط الاستجابة الحسية",
+            "characteristics": "Hypersensitivity to sensory stimuli",
+            "characteristics_ar": "حساسية زائدة تجاه المثيرات الحسية"
+          },
+          {
+            "name": "Sensory Under-Responsivity (SUR)",
+            "name_ar": "نقص الاستجابة الحسية",
+            "characteristics": "Hyposensitivity to sensory stimuli",
+            "characteristics_ar": "حساسية منخفضة تجاه المثيرات الحسية"
+          },
+          {
+            "name": "Sensory Seeking/Craving",
+            "name_ar": "البحث الحسي / الرغبة الحسية",
+            "characteristics": "Actively seeking intense sensory input",
+            "characteristics_ar": "السعي المتكرر للحصول على مدخلات حسية قوية"
+          }
+        ]
+      },
+      "sensory_discrimination_disorder": {
+        "description": "Difficulty in temporal and spatial features of sensory input",
+        "description_ar": "صعوبة في التمييز بين الخصائص الزمنية والمكانية للمثيرات الحسية"
+      },
+      "sensory_based_motor_disorder": {
+        "description": "Inadequacy in physical condition and voluntary movements",
+        "description_ar": "قصور في الحالة الجسدية والحركات الإرادية",
+        "subtypes": [
+          "Postural dysfunction",
+          "Dyspraxia"
+        ],
+        "subtypes_ar": [
+          "خلل وضعي",
+          "عسر الأداء الحركي"
+        ]
+      }
+    },
+    "sensory_modalities": {
+      "tactile": {
+        "common_issues": [
+          "Touch sensitivity",
+          "Tactile discrimination difficulties",
+          "Tactile defensiveness"
+        ],
+        "common_issues_ar": [
+          "حساسية اللمس",
+          "صعوبة التمييز اللمسي",
+          "الدفاعية اللمسية"
+        ],
+        "assessment_tools": [
+          "LTS (Localization of Tactile Stimulation)",
+          "Touch processing items from sensory profile"
+        ],
+        "assessment_tools_ar": [
+          "اختبار تحديد موقع التنبيه اللمسي (LTS)",
+          "بنود معالجة اللمس من الملف الحسي"
+        ]
+      },
+      "proprioception": {
+        "common_issues": [
+          "Body awareness difficulties",
+          "Motor planning problems",
+          "Coordination issues"
+        ],
+        "common_issues_ar": [
+          "ضعف الوعي بالجسم",
+          "مشكلات التخطيط الحركي",
+          "ضعف التنسيق"
+        ],
+        "impact": "Affects social communication and motor development",
+        "impact_ar": "يؤثر على التواصل الاجتماعي والتطور الحركي"
+      },
+      "vestibular": {
+        "common_issues": [
+          "Balance problems",
+          "Gait dysfunction",
+          "Postural instability",
+          "Motion sensitivity"
+        ],
+        "common_issues_ar": [
+          "مشكلات التوازن",
+          "اضطراب المشي",
+          "عدم الثبات الوضعي",
+          "حساسية الحركة"
+        ],
+        "related_difficulties": [
+          "Motor skill acquisition",
+          "Spatial orientation",
+          "Executive functioning impact in older children"
+        ],
+        "related_difficulties_ar": [
+          "اكتساب المهارات الحركية",
+          "الإدراك المكاني",
+          "التأثير على الوظائف التنفيذية عند الأطفال الأكبر"
+        ]
+      },
+      "auditory": {
+        "common_issues": [
+          "Auditory filtering deficits",
+          "Sound sensitivity",
+          "Difficulty processing auditory information"
+        ],
+        "common_issues_ar": [
+          "ضعف التصفية السمعية",
+          "حساسية الأصوات",
+          "صعوبة معالجة المعلومات السمعية"
+        ],
+        "correlation": "Negatively correlated with language development in multiple studies",
+        "correlation_ar": "ترتبط سلبًا بتطور اللغة في عدة دراسات"
+      },
+      "visual": {
+        "common_issues": [
+          "Visual sensitivity",
+          "Visual perception difficulties",
+          "Visual-motor coordination problems"
+        ],
+        "common_issues_ar": [
+          "حساسية بصرية",
+          "صعوبات الإدراك البصري",
+          "مشكلات التناسق البصري الحركي"
+        ]
+      },
+      "oral_sensory": {
+        "common_issues": [
+          "Food selectivity",
+          "Oral motor difficulties",
+          "Taste and smell sensitivities"
+        ],
+        "common_issues_ar": [
+          "انتقائية الطعام",
+          "صعوبات حركية فموية",
+          "حساسية التذوق والشم"
+        ],
+        "impact": "Leads to eating disorders and nutritional deficiencies",
+        "impact_ar": "قد تؤدي إلى اضطرابات أكل ونقص تغذية"
+      },
+      "multisensory": {
+        "description": "Integration across multiple sensory systems",
+        "description_ar": "التكامل عبر أنظمة حسية متعددة",
+        "importance": "Critical for complex cognitive and motor tasks",
+        "importance_ar": "أساسي للمهام المعرفية والحركية المعقدة"
+      }
+    },
+    "assessment_tools": {
+      "sensory_profile_2": {
+        "age_range": "3-10 years",
+        "age_range_ar": "من 3 إلى 10 سنوات",
+        "completion_method": "Parent/caregiver questionnaire",
+        "completion_method_ar": "استبيان يملؤه الوالد أو مقدم الرعاية",
+        "total_items": 125,
+        "sections": {
+          "sensory_processing": {
+            "categories": [
+              "Auditory processing",
+              "Visual processing",
+              "Vestibular processing",
+              "Touch processing",
+              "Multisensory processing",
+              "Oral sensory processing"
+            ],
+            "categories_ar": [
+              "المعالجة السمعية",
+              "المعالجة البصرية",
+              "المعالجة الدهليزية",
+              "معالجة اللمس",
+              "المعالجة المتعددة الحواس",
+              "المعالجة الحسية الفموية"
+            ]
+          },
+          "modulation": {
+            "categories": [
+              "Sensory processing related to endurance/tone",
+              "Modulation related to body position and movement",
+              "Modulation of movement affecting activity level",
+              "Modulation of sensory input affecting emotional response",
+              "Modulation of visual input affecting emotional response and activity"
+            ],
+            "categories_ar": [
+              "المعالجة الحسية المرتبطة بالتحمل/القوة العضلية",
+              "التعديل المرتبط بوضع الجسم والحركة",
+              "تعديل الحركة المؤثر على مستوى النشاط",
+              "تعديل المدخلات الحسية المؤثرة على الاستجابة الانفعالية",
+              "تعديل المدخلات البصرية المؤثرة على الاستجابة الانفعالية والنشاط"
+            ]
+          },
+          "behavioral_emotional_responses": {
+            "categories": [
+              "Emotional/social responses",
+              "Behavioral outcomes of sensory processing",
+              "Items indicating thresholds for response"
+            ],
+            "categories_ar": [
+              "الاستجابات الانفعالية/الاجتماعية",
+              "النتائج السلوكية للمعالجة الحسية",
+              "بنود تشير إلى عتبات الاستجابة"
+            ]
+          }
+        },
+        "scoring": {
+          "scale": "1-5 Likert scale (Always to Never)",
+          "scale_ar": "مقياس ليكرت من 1 إلى 5 (من دائمًا إلى أبدًا)",
+          "interpretation": [
+            "Typical performance",
+            "Probable difference",
+            "Definite difference"
+          ],
+          "interpretation_ar": [
+            "أداء نموذجي",
+            "فرق محتمل",
+            "فرق مؤكد"
+          ]
+        },
+        "quadrants": ["Seeking", "Avoiding", "Sensitivity", "Registration"],
+        "quadrants_ar": ["البحث", "التجنب", "الحساسية", "التسجيل"],
+        "reliability": "Cronbach alpha: 0.7-0.9"
+      },
+      "short_sensory_profile": {
+        "items": 38,
+        "advantage": "Shortened version for quick screening",
+        "advantage_ar": "نسخة مختصرة للفحص السريع",
+        "sensory_categories": 7
+      }
+    },
+    "spd_by_condition": {
+      "autism_spectrum_disorder": {
+        "prevalence": "90-95%",
+        "most_affected_areas": [
+          {"area": "Modulation of movement affecting emotional response", "area_ar": "تعديل الحركة المؤثر على الاستجابة الانفعالية", "percentage": "99%"},
+          {"area": "Multisensory processing", "area_ar": "المعالجة المتعددة الحواس", "percentage": "81%"},
+          {"area": "Modulation of movement affecting activity level", "area_ar": "تعديل الحركة المؤثر على مستوى النشاط", "percentage": "81%"},
+          {"area": "Auditory processing", "area_ar": "المعالجة السمعية", "percentage": "72%"},
+          {"area": "Vestibular processing", "area_ar": "المعالجة الدهليزية", "percentage": "54.5%"}
+        ],
+        "key_findings": [
+          "Highest prevalence of SPD among neurodevelopmental disorders",
+          "Sensory differences can appear before core autism symptoms",
+          "Age-related decline in sensory processing difficulties",
+          "Oral sensory processing disorders common (45%)",
+          "Tactile processing issues present in 36%"
+        ],
+        "key_findings_ar": [
+          "أعلى نسبة انتشار لـ SPD بين الاضطرابات النمائية العصبية",
+          "الفروق الحسية قد تظهر قبل أعراض التوحد الأساسية",
+          "تراجع مرتبط بالعمر في صعوبات المعالجة الحسية",
+          "اضطرابات المعالجة الحسية الفموية شائعة (45%)",
+          "مشكلات المعالجة اللمسية موجودة في 36%"
+        ],
+        "clinical_implications": [
+          "Affects social communication",
+          "Contributes to repetitive behaviors",
+          "Impacts anxiety levels",
+          "Influences eating behaviors"
+        ],
+        "clinical_implications_ar": [
+          "تؤثر على التواصل الاجتماعي",
+          "تساهم في السلوكيات التكرارية",
+          "تؤثر على مستويات القلق",
+          "تؤثر على سلوكيات الأكل"
+        ]
+      },
+      "adhd": {
+        "prevalence": "40-80%",
+        "most_affected_areas": [
+          {"area": "Modulation of sensory input affecting emotional responses", "area_ar": "تعديل المدخلات الحسية المؤثرة على الاستجابات الانفعالية", "percentage": "80%"},
+          {"area": "Multisensory processing", "area_ar": "المعالجة المتعددة الحواس", "percentage": "73%"},
+          {"area": "Behavioral outcomes", "area_ar": "النتائج السلوكية", "percentage": "76%"},
+          {"area": "Visual input modulation", "area_ar": "تعديل المدخلات البصرية", "percentage": "69.2%"},
+          {"area": "Vestibular processing", "area_ar": "المعالجة الدهليزية", "percentage": "61%"}
+        ],
+        "distinctive_features": [
+          "Visual perception deficits",
+          "Vestibular processing difficulties",
+          "Hyperactivity linked to sensory seeking",
+          "Poor social interaction related to motor planning"
+        ],
+        "distinctive_features_ar": [
+          "ضعف الإدراك البصري",
+          "صعوبات المعالجة الدهليزية",
+          "فرط الحركة مرتبط بالبحث الحسي",
+          "ضعف التفاعل الاجتماعي مرتبط بالتخطيط الحركي"
+        ]
+      },
+      "specific_language_impairment": {
+        "prevalence": "60-80%",
+        "most_affected_areas": [
+          {"area": "Modulation of sensory input affecting emotional response", "area_ar": "تعديل المدخلات الحسية المؤثرة على الاستجابة الانفعالية", "percentage": "82.6%"},
+          {"area": "Auditory processing", "area_ar": "المعالجة السمعية", "percentage": "68.9%"},
+          {"area": "Body position and movement", "area_ar": "وضع الجسم والحركة", "percentage": "65.2%"},
+          {"area": "Vestibular processing", "area_ar": "المعالجة الدهليزية", "percentage": "43.4%"},
+          {"area": "Oral processing", "area_ar": "المعالجة الفموية", "percentage": "43.4%"}
+        ],
+        "language_correlation": {
+          "receptive_language": [
+            "Negatively correlated with body position modulation",
+            "Negatively correlated with emotional response modulation",
+            "Negatively correlated with behavioral outcomes"
+          ],
+          "receptive_language_ar": [
+            "ارتباط سلبي مع تعديل وضع الجسم",
+            "ارتباط سلبي مع تعديل الاستجابة الانفعالية",
+            "ارتباط سلبي مع النتائج السلوكية"
+          ],
+          "expressive_language": [
+            "Correlated with oral sensory processing",
+            "Related to motor planning in speech production"
+          ],
+          "expressive_language_ar": [
+            "مرتبط بالمعالجة الحسية الفموية",
+            "مرتبط بالتخطيط الحركي في إنتاج الكلام"
+          ]
+        },
+        "key_insight": "Multisensory processing deficits common, more than 80% affected",
+        "key_insight_ar": "عجز المعالجة المتعددة الحواس شائع، أكثر من 80% متأثرين"
+      },
+      "intellectual_disability": {
+        "most_affected_areas": [
+          {"area": "Tone/endurance", "area_ar": "القوة العضلية/التحمل", "percentage": "77.8%"},
+          {"area": "Auditory processing", "area_ar": "المعالجة السمعية", "significant": true},
+          {"area": "Emotional response modulation", "area_ar": "تعديل الاستجابة الانفعالية", "significant": true}
+        ],
+        "characteristics": [
+          "Sensory-seeking behaviors common",
+          "Low energy/weakness predominant",
+          "Less severe SPD compared to ASD",
+          "Motor abilities impaired due to brain damage and motivation"
+        ],
+        "characteristics_ar": [
+          "سلوكيات البحث الحسي شائعة",
+          "ضعف الطاقة/القوة هو الغالب",
+          "SPD أقل حدة مقارنة بالتوحد",
+          "ضعف القدرات الحركية بسبب تلف الدماغ ونقص الدافعية"
+        ]
+      }
+    },
+    "developmental_considerations": {
+      "age_related_patterns": {
+        "young_children_under_5": [
+          "Picky eating behaviors",
+          "Drooling due to weak oral muscles",
+          "Proprioception-seeking (biting, chewing non-edibles)",
+          "Energy bursts/hyperactivity"
+        ],
+        "young_children_under_5_ar": [
+          "انتقائية في الأكل",
+          "سيلان اللعاب بسبب ضعف عضلات الفم",
+          "بحث عن مدخلات الحس العميق (عض، مضغ أشياء غير مأكولة)",
+          "نوبات طاقة / فرط حركة"
+        ],
+        "children_6_10": [
+          "Academic challenges emerge",
+          "Social competence affected",
+          "Executive functioning impacts",
+          "Behavioral regulation difficulties"
+        ],
+        "children_6_10_ar": [
+          "ظهور صعوبات أكاديمية",
+          "تأثر الكفاءة الاجتماعية",
+          "تأثير على الوظائف التنفيذية",
+          "صعوبة تنظيم السلوك"
+        ],
+        "children_over_10": [
+          "Sedentary behaviors",
+          "Low energy profiles",
+          "Decline in challenging behaviors with intervention",
+          "Language and academic gains possible"
+        ],
+        "children_over_10_ar": [
+          "سلوكيات خاملة",
+          "ملفات طاقة منخفضة",
+          "تراجع السلوكيات الصعبة مع التدخل",
+          "تحسن لغوي وأكاديمي ممكن"
+        ]
+      },
+      "milestone_regression": {
+        "prevalence_in_asd": "81.2%",
+        "typical_age": "18-24 months",
+        "typical_age_ar": "18-24 شهر",
+        "associated_sensory_issues": [
+          "Vestibular dysfunction",
+          "Visual/auditory impairments",
+          "Poor auditory filtering"
+        ],
+        "associated_sensory_issues_ar": [
+          "خلل دهليزي",
+          "ضعف بصري/سمعي",
+          "ضعف التصفية السمعية"
+        ],
+        "clinical_significance": "More severe ASD symptoms and sensory challenges",
+        "clinical_significance_ar": "أعراض توحد أكثر حدة وتحديات حسية أكبر"
+      }
+    },
+    "relationship_with_other_functions": {
+      "executive_functioning": {
+        "connection": "Strong bidirectional relationship",
+        "connection_ar": "علاقة ثنائية الاتجاه قوية",
+        "key_findings": [
+          "Sensory-motor issues contribute to executive dysfunction",
+          "Bottom-up processing affects top-down control",
+          "Shared variance: 10-30% with age"
+        ],
+        "key_findings_ar": [
+          "مشكلات حسية-حركية تساهم في خلل الوظائف التنفيذية",
+          "المعالجة من الأسفل للأعلى تؤثر على التحكم من الأعلى للأسفل",
+          "التباين المشترك: 10-30% مع العمر"
+        ],
+        "structural_model_results": {
+          "sensory_to_executive": {
+            "everyday_functioning": "β = 0.64, p < 0.001",
+            "laboratory_tasks": "β = 0.72, p < 0.001",
+            "variance_explained": "41-52%"
+          },
+          "motor_to_executive": {
+            "everyday_functioning": "β = 0.74, p < 0.001",
+            "laboratory_tasks": "β = 0.68, p < 0.001",
+            "variance_explained": "47-54%"
+          }
+        }
+      },
+      "motor_performance": {
+        "correlation": "r = 0.70",
+        "shared_mechanisms": [
+          "Both reflect lower-level brain functions",
+          "Early maturation affects later development",
+          "Developmental cascades impact"
+        ],
+        "shared_mechanisms_ar": [
+          "كلاهما يعكس وظائف دماغية من المستوى الأدنى",
+          "النضج المبكر يؤثر على التطور اللاحق",
+          "تأثير التتابعات التطورية"
+        ],
+        "clinical_implications": "Motor training may improve executive functioning",
+        "clinical_implications_ar": "التدريب الحركي قد يحسن الوظائف التنفيذية"
+      },
+      "language_development": {
+        "reciprocal_relationship": "Language and sensory development guarantee appropriate development of each",
+        "reciprocal_relationship_ar": "تطور اللغة والحواس يضمنان تطور كل منهما بشكل مناسب",
+        "auditory_processing": "Critical for language comprehension",
+        "auditory_processing_ar": "أساسي لفهم اللغة",
+        "oral_motor": "80% of SLI children have phonological disorders with sensory-motor bases",
+        "oral_motor_ar": "80% من أطفال اضطراب اللغة لديهم اضطرابات صوتية ذات أساس حسي-حركي"
+      }
+    },
+    "severity_assessment": {
+      "cars_correlation": {
+        "finding": "Tactile sensitivity significantly associated with ASD severity (p < 0.001)",
+        "finding_ar": "الحساسية اللمسية مرتبطة بشكل ملحوظ بشدة التوحد (p < 0.001)",
+        "severe_asd": "87.1% showed definite tactile sensitivity differences",
+        "severe_asd_ar": "87.1% أظهروا فروق حساسية لمسية مؤكدة",
+        "interpretation": "Sensory profile can grade ASD severity",
+        "interpretation_ar": "الملف الحسي يمكن أن يحدد درجة شدة التوحد"
+      }
+    },
+    "clinical_implications": {
+      "assessment": [
+        "Detailed sensory assessment reveals different patterns for different language disorders",
+        "Sensory profile can aid early diagnosis",
+        "Multiple assessment tools recommended (parent-report + performance-based)"
+      ],
+      "assessment_ar": [
+        "التقييم الحسي التفصيلي يكشف أنماطًا مختلفة لاضطرابات لغوية مختلفة",
+        "الملف الحسي يمكن أن يساعد في التشخيص المبكر",
+        "يُنصح باستخدام أدوات تقييم متعددة (تقرير الوالد + اختبارات أداء)"
+      ],
+      "intervention": {
+        "sensory_integration_therapy": {
+          "effectiveness": "Can improve executive functioning when combined with cognitive challenges",
+          "effectiveness_ar": "يمكن أن يحسن الوظائف التنفيذية عند دمجه مع تحديات معرفية",
+          "target_areas": ["Sensory modulation", "Vestibular function", "Tactile processing", "Auditory filtering"],
+          "target_areas_ar": ["تعديل حسي", "الوظيفة الدهليزية", "معالجة اللمس", "التصفية السمعية"]
+        },
+        "multifaceted_approach": [
+          "Target both sensory and motor abilities",
+          "Age-appropriate interventions",
+          "Family involvement crucial",
+          "Cultural adaptation necessary"
+        ],
+        "multifaceted_approach_ar": [
+          "استهداف القدرات الحسية والحركية معًا",
+          "تدخلات مناسبة للعمر",
+          "مشاركة الأسرة ضرورية",
+          "التكييف الثقافي ضروري"
+        ],
+        "sensory_hotspots": {
+          "priority_areas": ["Vestibular dysfunction", "Poor auditory filtering", "Low-energy profiles", "Tactile dysfunction", "Visual/auditory sensitivities"],
+          "priority_areas_ar": ["الخلل الدهليزي", "ضعف التصفية السمعية", "ملفات الطاقة المنخفضة", "الخلل اللمسي", "الحساسيات البصرية/السمعية"],
+          "benefit": "Reduces cost and time for diagnosis and intervention",
+          "benefit_ar": "يقلل التكلفة والوقت اللازمين للتشخيص والتدخل"
+        }
+      },
+      "educational_support": [
+        "Sensory accommodations in classroom",
+        "Modified environments",
+        "Structured sensory breaks",
+        "Visual supports and organization"
+      ],
+      "educational_support_ar": [
+        "تسهيلات حسية في الفصل الدراسي",
+        "بيئات معدلة",
+        "فترات راحة حسية منظمة",
+        "دعم بصري وتنظيم"
+      ]
+    },
+    "cultural_considerations": {
+      "note": "Neurological manifestations remain constant across cultures, but sensory processing manifestations are culture-specific",
+      "note_ar": "المظاهر العصبية تبقى ثابتة عبر الثقافات، لكن مظاهر المعالجة الحسية خاصة بالثقافة",
+      "validated_translations": ["Brazilian Portuguese", "Persian", "Jordanian Arabic", "Arabic Gulf region", "Egyptian Arabic"],
+      "validated_translations_ar": ["البرتغالية البرازيلية", "الفارسية", "العربية الأردنية", "عربية منطقة الخليج", "العربية المصرية"],
+      "recommendation": "Cultural adaptation essential for accurate assessment",
+      "recommendation_ar": "التكييف الثقافي ضروري للتقييم الدقيق"
+    },
+    "comorbidities": {
+      "common_associations": ["Sleep disorders", "Anxiety", "Behavioral challenges", "Eating disorders", "Academic difficulties", "Social communication impairments"],
+      "common_associations_ar": ["اضطرابات النوم", "القلق", "تحديات سلوكية", "اضطرابات الأكل", "صعوبات أكاديمية", "ضعف التواصل الاجتماعي"],
+      "percentage_with_comorbidities": "High overlap, especially in neurodevelopmental disorders",
+      "percentage_with_comorbidities_ar": "تداخل مرتفع، خاصة في الاضطرابات النمائية العصبية"
+    },
+    "neurobiological_basis": {
+      "brain_regions_involved": ["Brainstem (early maturation)", "Cerebellum (balance and coordination)", "Prefrontal cortex (executive control)", "Sensory cortices", "Subcortical-cortical connections"],
+      "brain_regions_involved_ar": ["جذع الدماغ (النضج المبكر)", "المخيخ (التوازن والتنسيق)", "القشرة الجبهية (التحكم التنفيذي)", "القشرة الحسية", "الروابط تحت القشرية-القشرية"],
+      "developmental_cascade": "Early-maturing regions (sensory-motor) compound developmental disruptions in later-developing areas (frontal, limbic)",
+      "developmental_cascade_ar": "المناطق المبكرة النضج (حسية-حركية) تضاعف الاضطرابات التطورية في المناطق المتأخرة النمو (جبهية، حوفية)",
+      "white_matter": "Deficits in left hemisphere white matter responsible for language, motor, and behavioral disorder comorbidities",
+      "white_matter_ar": "عجز في المادة البيضاء بالنصف الأيسر مسؤول عن ارتباط اضطرابات اللغة والحركة والسلوك"
+    },
+    "research_gaps": [
+      "Exact mechanisms underlying SPD in different conditions",
+      "Longitudinal studies needed",
+      "Causal relationships between sensory and other functions",
+      "Optimal intervention protocols",
+      "Biomarkers for SPD",
+      "Genetic and environmental factors"
+    ],
+    "research_gaps_ar": [
+      "الآليات الدقيقة الكامنة وراء SPD في الحالات المختلفة",
+      "الحاجة لدراسات طولية",
+      "العلاقات السببية بين الوظائف الحسية والأخرى",
+      "بروتوكولات التدخل المثلى",
+      "المؤشرات الحيوية لـ SPD",
+      "العوامل الوراثية والبيئية"
+    ],
+    "important_notes": {
+      "dsm5_recognition": "SPD now recognized in DSM-5 as common feature of ASD",
+      "dsm5_recognition_ar": "SPD معترف به حاليًا في DSM-5 كسمة شائعة للتوحد",
+      "not_exclusive_to_asd": "SPD present across multiple neurodevelopmental conditions",
+      "not_exclusive_to_asd_ar": "SPD موجود عبر عدة اضطرابات نمائية عصبية",
+      "early_identification": "Sensory signs often first clinical symptoms",
+      "early_identification_ar": "العلامات الحسية غالبًا تكون أول الأعراض السريرية",
+      "intervention_timing": "Early intervention critical for best outcomes",
+      "intervention_timing_ar": "التدخل المبكر حاسم لأفضل النتائج",
+      "holistic_approach": "Cannot treat sensory issues in isolation from other developmental domains",
+      "holistic_approach_ar": "لا يمكن علاج المشكلات الحسية بمعزل عن المجالات التطورية الأخرى"
+    }
+  },
+  "rag_chunks": [
+    {
+      "id": "spd_definition",
+      "topic": "definition",
+      "title": "What is Sensory Processing Disorder (SPD)?",
+      "title_ar": "ما هو اضطراب المعالجة الحسية؟",
+      "content": "Sensory Processing Disorder (SPD) is a dysfunction affecting the adequate reception, modulation, integration, discrimination, or organization of stimuli coming from senses. SPD is now recognized as a common feature of ASD in DSM-V. It is a neurodevelopmental processing difference, not a disease. It involves how the brain receives and responds to sensory input. SPD is present across multiple neurodevelopmental conditions, not exclusively in autism. Sensory signs are often the first clinical symptoms to appear, and early intervention is critical for best outcomes.",
+      "content_ar": "اضطراب المعالجة الحسية (SPD) هو خلل يؤثر على استقبال وتنظيم وتكامل وتمييز وترتيب المثيرات الحسية القادمة من الحواس المختلفة. معترف به كأحد السمات الشائعة في اضطراب طيف التوحد في DSM-5. هو اختلاف في المعالجة العصبية النمائية وليس مرضًا. يتعلق بكيفية استقبال الدماغ للمدخلات الحسية والاستجابة لها. ليس مقتصرًا على التوحد بل موجود في عدة اضطرابات نمائية عصبية. العلامات الحسية قد تكون أول الأعراض ظهورًا، والتدخل المبكر يعطي أفضل نتائج.",
+      "keywords": [
+        "spd",
+        "sensory processing disorder",
+        "definition",
+        "تعريف",
+        "اضطراب المعالجة الحسية",
+        "اضطراب التكامل الحسي",
+        "ما هو",
+        "what is",
+        "dsm",
+        "neurodevelopmental",
+        "ايه هو"
+      ]
+    },
+    {
+      "id": "spd_prevalence",
+      "topic": "prevalence",
+      "title": "SPD Prevalence Rates",
+      "title_ar": "معدلات انتشار اضطراب المعالجة الحسية",
+      "content": "SPD prevalence varies by population: 5-19% of children without psychiatric disorders in the general population. Among children with ASD, prevalence is 90-95%. In children with ADHD, prevalence ranges from 40-80%. For children with Specific Language Impairment (SLI), rates are 60-80%. Intellectual Disability shows variable rates. SPD has the highest prevalence among neurodevelopmental disorders in children with autism.",
+      "content_ar": "تختلف نسب انتشار اضطراب المعالجة الحسية حسب الفئة: من 5% إلى 19% من الأطفال بدون اضطرابات نفسية في عموم السكان. بين الأطفال المصابين بالتوحد تصل النسبة إلى 90-95%. في أطفال فرط الحركة وتشتت الانتباه من 40% إلى 80%. في أطفال اضطراب اللغة النوعي من 60% إلى 80%. الإعاقة الذهنية تظهر نسبًا متفاوتة. يُعد اضطراب المعالجة الحسية الأعلى انتشارًا بين الاضطرابات النمائية العصبية لدى أطفال التوحد.",
+      "keywords": [
+        "prevalence",
+        "انتشار",
+        "نسبة",
+        "percentage",
+        "statistics",
+        "autism",
+        "adhd",
+        "اضطراب المعالجة الحسية",
+        "spd",
+        "كم نسبة"
+      ]
+    },
+    {
+      "id": "spd_subtypes_modulation",
+      "topic": "types",
+      "title": "Sensory Modulation Disorder",
+      "title_ar": "اضطراب التعديل الحسي",
+      "content": "Sensory Modulation Disorder involves challenges in grading intensity and type of responses to sensory input. It has three subtypes: (1) Sensory Over-Responsivity (SOR) — hypersensitivity to sensory stimuli, where the child may overreact to touch, sound, or light. (2) Sensory Under-Responsivity (SUR) — hyposensitivity to sensory stimuli, where the child may not notice pain or temperature. (3) Sensory Seeking/Craving — actively seeking intense sensory input, such as spinning, crashing, or touching everything.",
+      "content_ar": "اضطراب التعديل الحسي يتضمن صعوبة في ضبط شدة ونوع الاستجابة للمثيرات الحسية. له ثلاثة أنواع فرعية: (1) فرط الاستجابة الحسية — حساسية زائدة تجاه المثيرات الحسية، حيث قد يبالغ الطفل في رد فعله تجاه اللمس أو الصوت أو الضوء. (2) نقص الاستجابة الحسية — حساسية منخفضة تجاه المثيرات الحسية، حيث قد لا يلاحظ الطفل الألم أو الحرارة. (3) البحث الحسي — السعي المتكرر للحصول على مدخلات حسية قوية مثل الدوران والاصطدام ولمس كل شيء.",
+      "keywords": [
+        "modulation",
+        "تعديل حسي",
+        "over-responsivity",
+        "under-responsivity",
+        "sensory seeking",
+        "hypersensitivity",
+        "hyposensitivity",
+        "فرط حساسية",
+        "نقص حساسية",
+        "types",
+        "أنواع",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_subtypes_discrimination",
+      "topic": "types",
+      "title": "Sensory Discrimination Disorder",
+      "title_ar": "اضطراب التمييز الحسي",
+      "content": "Sensory Discrimination Disorder involves difficulty in temporal and spatial features of sensory input. Children with this subtype have trouble distinguishing between similar sensory stimuli — for example, telling the difference between shapes by touch alone, or distinguishing similar sounds. This affects their ability to interpret and make sense of sensory information accurately.",
+      "content_ar": "اضطراب التمييز الحسي يتضمن صعوبة في التمييز بين الخصائص الزمنية والمكانية للمثيرات الحسية. الأطفال المصابون بهذا النوع يواجهون صعوبة في التفريق بين المثيرات الحسية المتشابهة — مثل التمييز بين الأشكال باللمس فقط، أو التفريق بين الأصوات المتشابهة. هذا يؤثر على قدرتهم على تفسير المعلومات الحسية بدقة.",
+      "keywords": [
+        "discrimination",
+        "تمييز حسي",
+        "temporal",
+        "spatial",
+        "distinguish",
+        "spd",
+        "types",
+        "أنواع"
+      ]
+    },
+    {
+      "id": "spd_subtypes_motor",
+      "topic": "types",
+      "title": "Sensory-Based Motor Disorder",
+      "title_ar": "الاضطراب الحركي المبني على الحس",
+      "content": "Sensory-Based Motor Disorder involves inadequacy in physical condition and voluntary movements. It has two subtypes: (1) Postural dysfunction — difficulty maintaining stable posture and balance during activities. (2) Dyspraxia — difficulty planning and executing new motor actions. This subtype connects sensory processing difficulties directly to motor performance challenges.",
+      "content_ar": "الاضطراب الحركي المبني على الحس يتضمن قصورًا في الحالة الجسدية والحركات الإرادية. له نوعان فرعيان: (1) خلل وضعي — صعوبة في الحفاظ على وضع ثابت وتوازن أثناء الأنشطة. (2) عسر الأداء الحركي — صعوبة في التخطيط وتنفيذ الحركات الجديدة. هذا النوع يربط مباشرة بين صعوبات المعالجة الحسية وتحديات الأداء الحركي.",
+      "keywords": [
+        "motor",
+        "حركي",
+        "postural",
+        "dyspraxia",
+        "balance",
+        "توازن",
+        "coordination",
+        "تنسيق",
+        "spd",
+        "types",
+        "أنواع"
+      ]
+    },
+    {
+      "id": "spd_symptoms_tactile",
+      "topic": "symptoms",
+      "title": "Tactile (Touch) Sensory Issues in SPD",
+      "title_ar": "مشاكل اللمس الحسية في اضطراب المعالجة الحسية",
+      "content": "Children with SPD may experience tactile issues including: touch sensitivity, tactile discrimination difficulties, and tactile defensiveness. Tactile sensitivity is significantly associated with ASD severity (p < 0.001). In children with severe ASD, 87.1% showed definite tactile sensitivity differences, and 36% of all children with ASD have tactile processing issues. Assessment tools include LTS (Localization of Tactile Stimulation) and touch processing items from the Sensory Profile.",
+      "content_ar": "قد يعاني أطفال اضطراب المعالجة الحسية من مشاكل لمسية تشمل: حساسية اللمس، صعوبة التمييز اللمسي، والدفاعية اللمسية. حساسية اللمس مرتبطة بشكل دال إحصائيًا بشدة التوحد (p < 0.001). في الحالات الشديدة 87.1% أظهرت فروقًا واضحة في الحساسية اللمسية، و36% من جميع أطفال التوحد لديهم مشاكل في المعالجة اللمسية. أدوات التقييم تشمل اختبار تحديد موقع التنبيه اللمسي وبنود اللمس في ملف التقييم الحسي.",
+      "keywords": [
+        "tactile",
+        "touch",
+        "لمس",
+        "حساسية اللمس",
+        "defensiveness",
+        "sensitivity",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_symptoms_proprioception",
+      "topic": "symptoms",
+      "title": "Proprioception Issues in SPD",
+      "title_ar": "مشاكل الحس العميق في اضطراب المعالجة الحسية",
+      "content": "Proprioception issues in SPD include: body awareness difficulties, motor planning problems, and coordination issues. These affect social communication and motor development. Children may seek proprioceptive input through biting, chewing non-edibles, or crashing into objects. Proprioception is particularly affected in young children under 5.",
+      "content_ar": "مشاكل الحس العميق في اضطراب المعالجة الحسية تشمل: ضعف الوعي بالجسم، مشكلات التخطيط الحركي، وضعف التنسيق. تؤثر على التواصل الاجتماعي والتطور الحركي. قد يبحث الأطفال عن مدخلات الحس العميق من خلال القضم وعض الأشياء غير الصالحة للأكل أو الاصطدام بالأشياء. يتأثر الحس العميق بشكل خاص عند الأطفال تحت سن 5 سنوات.",
+      "keywords": [
+        "proprioception",
+        "حس عميق",
+        "body awareness",
+        "وعي جسدي",
+        "motor planning",
+        "coordination",
+        "تنسيق",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_symptoms_vestibular",
+      "topic": "symptoms",
+      "title": "Vestibular (Balance) Issues in SPD",
+      "title_ar": "مشاكل التوازن والجهاز الدهليزي في اضطراب المعالجة الحسية",
+      "content": "Vestibular issues in SPD include: balance problems, gait dysfunction, postural instability, and motion sensitivity. These lead to related difficulties in motor skill acquisition, spatial orientation, and executive functioning impact in older children. Vestibular processing is affected in 54.5% of children with ASD and 61% of children with ADHD. Vestibular dysfunction is a priority area for sensory intervention.",
+      "content_ar": "مشاكل الجهاز الدهليزي في اضطراب المعالجة الحسية تشمل: مشكلات التوازن، اضطراب المشي، عدم الثبات الوضعي، وحساسية الحركة. تؤدي إلى صعوبات في اكتساب المهارات الحركية والإدراك المكاني وتأثير على الوظائف التنفيذية لدى الأطفال الأكبر سنًا. يتأثر الجهاز الدهليزي في 54.5% من أطفال التوحد و61% من أطفال فرط الحركة. خلل الجهاز الدهليزي من المجالات ذات الأولوية في التدخل الحسي.",
+      "keywords": [
+        "vestibular",
+        "دهليزي",
+        "balance",
+        "توازن",
+        "gait",
+        "مشي",
+        "motion",
+        "حركة",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_symptoms_auditory",
+      "topic": "symptoms",
+      "title": "Auditory Sensory Issues in SPD",
+      "title_ar": "مشاكل السمع الحسية في اضطراب المعالجة الحسية",
+      "content": "Auditory issues in SPD include: auditory filtering deficits, sound sensitivity, and difficulty processing auditory information. Auditory processing is negatively correlated with language development in multiple studies. It affects 72% of children with ASD and 68.9% of children with SLI. Poor auditory filtering is a priority area for intervention. Auditory processing is critical for language comprehension.",
+      "content_ar": "مشاكل السمع في اضطراب المعالجة الحسية تشمل: ضعف التصفية السمعية، حساسية الأصوات، وصعوبة معالجة المعلومات السمعية. المعالجة السمعية ترتبط سلبًا بتطور اللغة في عدة دراسات. تؤثر على 72% من أطفال التوحد و68.9% من أطفال اضطراب اللغة النوعي. ضعف التصفية السمعية من المجالات ذات الأولوية في التدخل. المعالجة السمعية أساسية لفهم اللغة.",
+      "keywords": [
+        "auditory",
+        "سمعي",
+        "sound",
+        "صوت",
+        "hearing",
+        "سمع",
+        "filtering",
+        "language",
+        "لغة",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_symptoms_visual",
+      "topic": "symptoms",
+      "title": "Visual Sensory Issues in SPD",
+      "title_ar": "مشاكل البصر الحسية في اضطراب المعالجة الحسية",
+      "content": "Visual issues in SPD include: visual sensitivity, visual perception difficulties, and visual-motor coordination problems. Visual input modulation affects 69.2% of children with ADHD. Visual perception deficits are a distinctive feature in ADHD-related SPD. Visual/auditory sensitivities are among the priority areas for sensory intervention.",
+      "content_ar": "مشاكل البصر في اضطراب المعالجة الحسية تشمل: حساسية بصرية، صعوبات الإدراك البصري، ومشكلات التناسق البصري الحركي. تعديل المدخلات البصرية يؤثر على 69.2% من أطفال فرط الحركة. ضعف الإدراك البصري سمة مميزة في اضطراب المعالجة الحسية المرتبط بفرط الحركة. الحساسية البصرية والسمعية من المجالات ذات الأولوية في التدخل الحسي.",
+      "keywords": [
+        "visual",
+        "بصري",
+        "sight",
+        "بصر",
+        "perception",
+        "إدراك بصري",
+        "coordination",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_symptoms_oral",
+      "topic": "symptoms",
+      "title": "Oral Sensory Issues in SPD",
+      "title_ar": "مشاكل الفم الحسية في اضطراب المعالجة الحسية",
+      "content": "Oral sensory issues in SPD include: food selectivity, oral motor difficulties, and taste and smell sensitivities. These can lead to eating disorders and nutritional deficiencies. Oral sensory processing disorders are common in children with ASD (45%). In children with SLI, oral processing is affected in 43.4%. Young children under 5 may show drooling due to weak oral muscles and picky eating behaviors.",
+      "content_ar": "مشاكل الفم الحسية في اضطراب المعالجة الحسية تشمل: انتقائية الطعام، صعوبات حركية فموية، وحساسية التذوق والشم. قد تؤدي إلى اضطرابات أكل ونقص تغذية. اضطرابات المعالجة الحسية الفموية شائعة عند أطفال التوحد (45%). في أطفال اضطراب اللغة النوعي تتأثر المعالجة الفموية بنسبة 43.4%. الأطفال تحت سن 5 سنوات قد يظهرون سيلان اللعاب بسبب ضعف عضلات الفم وانتقائية الطعام.",
+      "keywords": [
+        "oral",
+        "فموي",
+        "food",
+        "طعام",
+        "eating",
+        "أكل",
+        "taste",
+        "تذوق",
+        "smell",
+        "شم",
+        "picky eating",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_assessment",
+      "topic": "assessment",
+      "title": "SPD Assessment Tools",
+      "title_ar": "أدوات تقييم اضطراب المعالجة الحسية",
+      "content": "Common SPD assessment tools include: (1) Sensory Profile 2 — for ages 3-10 years, 125 items, completed by parent/caregiver. Covers sensory processing, modulation, and behavioral/emotional responses. Uses 1-5 Likert scale. Has four quadrants: Seeking, Avoiding, Sensitivity, Registration. Reliability: Cronbach alpha 0.7-0.9. (2) Short Sensory Profile (SSP) — 38 items across 7 sensory categories, designed for quick screening. Detailed sensory assessment reveals different patterns for different disorders. Multiple assessment tools are recommended (parent-report + performance-based).",
+      "content_ar": "أدوات تقييم اضطراب المعالجة الحسية الشائعة تشمل: (1) ملف المعالجة الحسية 2 — للأعمار من 3 إلى 10 سنوات، 125 بندًا، يملؤه الوالد أو مقدم الرعاية. يغطي المعالجة الحسية والتعديل والاستجابات السلوكية/الانفعالية. يستخدم مقياس ليكرت من 1 إلى 5. له أربعة أرباع: البحث، التجنب، الحساسية، التسجيل. ثبات إحصائي بين 0.7 إلى 0.9. (2) ملف المعالجة الحسية المختصر (SSP) — 38 بندًا في 7 فئات حسية، مصمم للفحص السريع. التقييم الحسي التفصيلي يكشف أنماط مختلفة حسب نوع الاضطراب. يفضل استخدام أدوات متعددة (تقارير أولياء الأمور + تقييمات أدائية).",
+      "keywords": [
+        "assessment",
+        "تقييم",
+        "sensory profile",
+        "screening",
+        "فحص",
+        "tools",
+        "أدوات",
+        "questionnaire",
+        "spd",
+        "diagnosis",
+        "قياس"
+      ]
+    },
+    {
+      "id": "spd_age_patterns",
+      "topic": "symptoms",
+      "title": "Age-Related SPD Patterns",
+      "title_ar": "أنماط اضطراب المعالجة الحسية حسب العمر",
+      "content": "SPD patterns change with age. Young children under 5 may show: picky eating behaviors, drooling due to weak oral muscles, proprioception-seeking (biting, chewing non-edibles), and energy bursts/hyperactivity. Children ages 6-10 may experience: academic challenges, social competence issues, executive functioning impacts, and behavioral regulation difficulties. Children over 10 may show: sedentary behaviors, low energy profiles, but decline in challenging behaviors with intervention, and language and academic gains are possible.",
+      "content_ar": "تتغير أنماط اضطراب المعالجة الحسية مع العمر. الأطفال تحت سن 5 قد يظهرون: انتقائية الطعام، سيلان اللعاب بسبب ضعف عضلات الفم، البحث عن الحس العميق (قضم الأشياء غير الصالحة للأكل)، ونوبات طاقة زائدة/فرط حركة. الأطفال من 6 إلى 10 سنوات قد يعانون من: تحديات أكاديمية، مشكلات الكفاءة الاجتماعية، تأثير على الوظائف التنفيذية، وصعوبات تنظيم السلوك. الأطفال فوق 10 سنوات قد يظهرون: سلوكيات خمول، انخفاض الطاقة، لكن مع التدخل تتراجع السلوكيات الصعبة ويمكن تحقيق تحسن لغوي وأكاديمي.",
+      "keywords": [
+        "age",
+        "عمر",
+        "development",
+        "نمو",
+        "children",
+        "أطفال",
+        "patterns",
+        "أنماط",
+        "milestones",
+        "symptoms",
+        "أعراض",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_asd_link",
+      "topic": "comorbidity",
+      "title": "SPD and Autism Spectrum Disorder (ASD)",
+      "title_ar": "اضطراب المعالجة الحسية والتوحد",
+      "content": "SPD has the highest prevalence (90-95%) among children with ASD. Most affected areas: modulation of movement affecting emotional response (99%), multisensory processing (81%), modulation of movement affecting activity level (81%), auditory processing (72%), vestibular processing (54.5%). Key findings: sensory differences can appear before core autism symptoms, there is an age-related decline in sensory processing difficulties, oral sensory processing disorders are common (45%), and tactile processing issues are present in 36%. Clinical implications include effects on social communication, contribution to repetitive behaviors, impact on anxiety levels, and influence on eating behaviors.",
+      "content_ar": "اضطراب المعالجة الحسية هو الأعلى انتشارًا (90-95%) بين أطفال التوحد. أكثر المجالات تأثرًا: تعديل الحركة المؤثر على الاستجابة الانفعالية (99%)، المعالجة المتعددة الحواس (81%)، تعديل الحركة المؤثر على مستوى النشاط (81%)، المعالجة السمعية (72%)، المعالجة الدهليزية (54.5%). نتائج رئيسية: الفروق الحسية قد تظهر قبل أعراض التوحد الأساسية، انخفاض تدريجي في الصعوبات الحسية مع العمر، اضطرابات المعالجة الحسية الفموية شائعة (45%)، ومشاكل المعالجة اللمسية موجودة في 36%. التأثيرات السريرية تشمل التأثير على التواصل الاجتماعي والسلوكيات التكرارية ومستويات القلق وسلوكيات الأكل.",
+      "keywords": [
+        "autism",
+        "توحد",
+        "asd",
+        "طيف التوحد",
+        "spd",
+        "comorbidity",
+        "link",
+        "ارتباط"
+      ]
+    },
+    {
+      "id": "spd_adhd_link",
+      "topic": "comorbidity",
+      "title": "SPD and ADHD",
+      "title_ar": "اضطراب المعالجة الحسية وفرط الحركة وتشتت الانتباه",
+      "content": "SPD prevalence in children with ADHD ranges from 40-80%. Most affected areas: modulation of sensory input affecting emotional responses (80%), multisensory processing (73%), behavioral outcomes (76%), visual input modulation (69.2%), and vestibular processing (61%). Distinctive features include: visual perception deficits, vestibular processing difficulties, hyperactivity linked to sensory seeking, and poor social interaction related to motor planning.",
+      "content_ar": "نسبة انتشار اضطراب المعالجة الحسية في أطفال فرط الحركة وتشتت الانتباه تتراوح بين 40-80%. أكثر المجالات تأثرًا: تعديل المدخلات الحسية المؤثرة على الاستجابات الانفعالية (80%)، المعالجة المتعددة الحواس (73%)، النتائج السلوكية (76%)، تعديل المدخلات البصرية (69.2%)، والمعالجة الدهليزية (61%). السمات المميزة تشمل: ضعف الإدراك البصري، صعوبات المعالجة الدهليزية، فرط الحركة المرتبط بالبحث الحسي، وضعف التفاعل الاجتماعي المرتبط بالتخطيط الحركي.",
+      "keywords": [
+        "adhd",
+        "فرط حركة",
+        "تشتت انتباه",
+        "attention deficit",
+        "hyperactivity",
+        "spd",
+        "comorbidity",
+        "ارتباط"
+      ]
+    },
+    {
+      "id": "spd_intervention",
+      "topic": "management",
+      "title": "SPD Intervention and Support Strategies",
+      "title_ar": "استراتيجيات التدخل والدعم لاضطراب المعالجة الحسية",
+      "content": "Sensory Integration Therapy can improve executive functioning when combined with cognitive challenges. Target areas include: sensory modulation, vestibular function, tactile processing, and auditory filtering. A multifaceted approach is recommended: target both sensory and motor abilities, use age-appropriate interventions, involve the family, and adapt culturally. Priority areas for intervention (sensory hotspots): vestibular dysfunction, poor auditory filtering, low-energy profiles, tactile dysfunction, and visual/auditory sensitivities. Educational support includes: sensory accommodations in classroom, modified environments, structured sensory breaks, and visual supports and organization. Motor training may also improve executive functioning. Cannot treat sensory issues in isolation from other developmental domains.",
+      "content_ar": "العلاج بالتكامل الحسي قد يحسن الوظائف التنفيذية عند دمجه مع تحديات معرفية. مجالات الاستهداف تشمل: تنظيم الحس، وظيفة الجهاز الدهليزي، المعالجة اللمسية، والتصفية السمعية. يُنصح بنهج متعدد الجوانب: استهداف الجوانب الحسية والحركية معًا، تدخلات مناسبة للعمر، إشراك الأسرة بشكل أساسي، وتكييف التدخل حسب الثقافة. المجالات ذات الأولوية في التدخل (النقاط الحسية الساخنة): خلل الجهاز الدهليزي، ضعف التصفية السمعية، أنماط انخفاض الطاقة، خلل المعالجة اللمسية، والحساسية البصرية والسمعية. الدعم التعليمي يشمل: تعديلات حسية داخل الفصل، بيئات معدلة، فترات راحة حسية منظمة، ودعم بصري وتنظيمي. التدريب الحركي قد يحسن الوظائف التنفيذية أيضًا. لا يمكن علاج المشكلات الحسية بمعزل عن باقي الجوانب النمائية.",
+      "keywords": [
+        "intervention",
+        "تدخل",
+        "therapy",
+        "علاج",
+        "support",
+        "دعم",
+        "management",
+        "تعامل",
+        "strategies",
+        "استراتيجيات",
+        "treatment",
+        "education",
+        "تعليم",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_comorbidities",
+      "topic": "comorbidity",
+      "title": "SPD Comorbidities and Associated Conditions",
+      "title_ar": "الأمراض المصاحبة لاضطراب المعالجة الحسية",
+      "content": "Common conditions associated with SPD include: sleep disorders, anxiety, behavioral challenges, eating disorders, academic difficulties, and social communication impairments. There is a high overlap, especially in neurodevelopmental disorders. SPD is commonly linked with: autism spectrum disorder, ADHD, developmental delays, and anxiety or behavioral challenges. In milestone regression (prevalent in 81.2% of ASD cases, typical age 18-24 months), associated sensory issues include vestibular dysfunction, visual/auditory impairments, and poor auditory filtering.",
+      "content_ar": "الحالات الشائعة المصاحبة لاضطراب المعالجة الحسية تشمل: اضطرابات النوم، القلق، مشكلات سلوكية، اضطرابات الأكل، صعوبات أكاديمية، وضعف التواصل الاجتماعي. يوجد تداخل مرتفع خاصة في الاضطرابات النمائية العصبية. يرتبط الاضطراب عادة بـ: اضطراب طيف التوحد، فرط الحركة وتشتت الانتباه، التأخر النمائي، والقلق أو المشكلات السلوكية. في حالات تراجع المعالم النمائية (81.2% من حالات التوحد، بين 18-24 شهرًا)، المشاكل الحسية المصاحبة تشمل خلل الجهاز الدهليزي، ضعف البصر/السمع، وضعف التصفية السمعية.",
+      "keywords": [
+        "comorbidity",
+        "أمراض مصاحبة",
+        "associated",
+        "مرتبط",
+        "sleep",
+        "نوم",
+        "anxiety",
+        "قلق",
+        "behavior",
+        "سلوك",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_neurobiology",
+      "topic": "definition",
+      "title": "Neurobiological Basis of SPD",
+      "title_ar": "الأساس العصبي لاضطراب المعالجة الحسية",
+      "content": "SPD involves several brain regions: brainstem (early maturation), cerebellum (balance and coordination), prefrontal cortex (executive control), sensory cortices, and subcortical-cortical connections. Early-maturing regions (sensory-motor) compound developmental disruptions in later-developing areas (frontal and limbic). There is a strong bidirectional relationship between sensory processing and executive functioning, with sensory-motor issues contributing to executive dysfunction. Deficits in left hemisphere white matter are responsible for language, motor, and behavioral disorder comorbidities.",
+      "content_ar": "اضطراب المعالجة الحسية يشمل عدة مناطق دماغية: جذع الدماغ (ينضج مبكرًا)، المخيخ (التوازن والتنسيق)، القشرة الجبهية الأمامية (التحكم التنفيذي)، القشور الحسية، والاتصالات تحت القشرية-القشرية. المناطق التي تنضج مبكرًا (حسية-حركية) قد تؤدي إلى اضطرابات في المناطق التي تنضج لاحقًا (الجبهية واللمبية). توجد علاقة ثنائية الاتجاه قوية بين المعالجة الحسية والوظائف التنفيذية، والمشكلات الحسية الحركية تساهم في ضعف الوظائف التنفيذية. خلل في المادة البيضاء في النصف الأيسر يرتبط بمشكلات اللغة والحركة والسلوك.",
+      "keywords": [
+        "neurobiology",
+        "brain",
+        "مخ",
+        "عصبي",
+        "neurological",
+        "cortex",
+        "cerebellum",
+        "brainstem",
+        "spd",
+        "science"
+      ]
+    },
+    {
+      "id": "spd_executive_function",
+      "topic": "definition",
+      "title": "SPD and Executive Functioning",
+      "title_ar": "اضطراب المعالجة الحسية والوظائف التنفيذية",
+      "content": "There is a strong bidirectional relationship between sensory processing and executive functioning. Key findings: sensory-motor issues contribute to executive dysfunction, bottom-up processing affects top-down control, shared variance ranges from 10-30% with age. Structural model results show: sensory to executive everyday functioning β = 0.64 (p < 0.001), laboratory tasks β = 0.72 (p < 0.001), variance explained 41-52%. Motor to executive everyday functioning β = 0.74 (p < 0.001), laboratory tasks β = 0.68 (p < 0.001), variance explained 47-54%. Motor training may improve executive functioning.",
+      "content_ar": "توجد علاقة ثنائية الاتجاه قوية بين المعالجة الحسية والوظائف التنفيذية. نتائج رئيسية: المشكلات الحسية الحركية تساهم في ضعف الوظائف التنفيذية، المعالجة من أسفل لأعلى تؤثر على التحكم من أعلى لأسفل، نسبة التباين المشترك تتراوح بين 10% إلى 30% حسب العمر. نتائج النماذج البنائية تظهر: التأثير الحسي على الأداء التنفيذي اليومي β = 0.64 (p < 0.001)، المهام المعملية β = 0.72 (p < 0.001)، التباين المفسر 41-52%. التأثير الحركي على الأداء التنفيذي اليومي β = 0.74 (p < 0.001)، المهام المعملية β = 0.68 (p < 0.001)، التباين المفسر 47-54%. التدريب الحركي قد يحسن الوظائف التنفيذية.",
+      "keywords": [
+        "executive",
+        "وظائف تنفيذية",
+        "cognitive",
+        "معرفي",
+        "brain function",
+        "motor",
+        "حركي",
+        "spd",
+        "relationship"
+      ]
+    },
+    {
+      "id": "spd_language",
+      "topic": "comorbidity",
+      "title": "SPD and Language Development",
+      "title_ar": "اضطراب المعالجة الحسية وتطور اللغة",
+      "content": "Language and sensory development have a reciprocal relationship — each guarantees appropriate development of the other. Auditory processing is critical for language comprehension. 80% of children with Specific Language Impairment (SLI) have phonological disorders with sensory-motor bases. SPD prevalence in SLI is 60-80%. Most affected areas in SLI: modulation of sensory input affecting emotional response (82.6%), auditory processing (68.9%), body position and movement (65.2%), vestibular processing (43.4%), oral processing (43.4%). Receptive language is negatively correlated with body position modulation and emotional response modulation. Expressive language is correlated with oral sensory processing and motor planning in speech production.",
+      "content_ar": "التطور اللغوي والحسي لهما علاقة متبادلة — كل منهما يضمن التطور المناسب للآخر. المعالجة السمعية أساسية لفهم اللغة. 80% من أطفال اضطراب اللغة النوعي لديهم مشكلات صوتية ذات أساس حسي حركي. نسبة انتشار اضطراب المعالجة الحسية في اضطراب اللغة النوعي 60-80%. أكثر المجالات تأثرًا: تعديل المدخلات الحسية المؤثرة على الاستجابة الانفعالية (82.6%)، المعالجة السمعية (68.9%)، وضع الجسم والحركة (65.2%)، المعالجة الدهليزية (43.4%)، المعالجة الفموية (43.4%). اللغة الاستقبالية ترتبط سلبًا بتعديل وضع الجسم والاستجابة الانفعالية. اللغة التعبيرية ترتبط بالمعالجة الحسية الفموية والتخطيط الحركي في إنتاج الكلام.",
+      "keywords": [
+        "language",
+        "لغة",
+        "speech",
+        "كلام",
+        "SLI",
+        "اضطراب لغة",
+        "auditory",
+        "سمعي",
+        "oral",
+        "فموي",
+        "spd",
+        "comorbidity"
+      ]
+    },
+    {
+      "id": "spd_cultural",
+      "topic": "assessment",
+      "title": "Cultural Considerations in SPD Assessment",
+      "title_ar": "الاعتبارات الثقافية في تقييم اضطراب المعالجة الحسية",
+      "content": "Neurological manifestations of SPD remain constant across cultures, but sensory processing manifestations are culture-specific. The Sensory Profile has been validated and translated into: Brazilian Portuguese, Persian, Jordanian Arabic, Arabic Gulf region, and Egyptian Arabic. Cultural adaptation is essential for accurate assessment. Assessment results should be interpreted within the child's cultural context to avoid misdiagnosis or over-diagnosis.",
+      "content_ar": "الأساس العصبي لاضطراب المعالجة الحسية ثابت عبر الثقافات، لكن مظاهر المعالجة الحسية تختلف حسب السياق الثقافي. تم ترجمة وتصديق ملف المعالجة الحسية إلى: البرتغالية البرازيلية، الفارسية، العربية الأردنية، العربية الخليجية، والعربية المصرية. التكييف الثقافي ضروري لضمان دقة التقييم. يجب تفسير نتائج التقييم ضمن السياق الثقافي للطفل لتجنب التشخيص الخاطئ أو المبالغ فيه.",
+      "keywords": [
+        "cultural",
+        "ثقافي",
+        "translation",
+        "ترجمة",
+        "arabic",
+        "عربي",
+        "egyptian",
+        "مصري",
+        "assessment",
+        "تقييم",
+        "spd"
+      ]
+    },
+    {
+      "id": "spd_stress_loud_sounds",
+      "topic": "stress",
+      "title": "Stress and Anxiety from Loud Sounds in SPD",
+      "title_ar": "التوتر والقلق من الأصوات العالية في اضطراب المعالجة الحسية",
+      "content": "Children with Sensory Processing Disorder (SPD) — especially those with Sensory Over-Responsivity (SOR) — often experience extreme stress, anxiety, or even panic when exposed to loud or sudden sounds. This is called auditory hypersensitivity or auditory defensiveness. Common triggers include: vacuum cleaners, blenders, hand dryers, fireworks, school bells, crowded places, shouting, and TV/music at normal volume. The child's nervous system perceives these sounds as threats, triggering a fight-or-flight response. Reactions may include: covering ears, screaming, crying, running away, aggression, or a full sensory meltdown. This is NOT behavioral — it is a neurological response. Practical tips: (1) Use noise-cancelling headphones or earplugs in noisy environments. (2) Give advance warning before loud sounds. (3) Create a quiet safe space at home and school. (4) Gradual desensitization with an occupational therapist. (5) Validate the child's feelings — never force exposure. Auditory processing difficulties affect 72% of children with ASD and are a priority area for sensory intervention.",
+      "content_ar": "الأطفال المصابون باضطراب المعالجة الحسية (SPD) — خاصة من لديهم فرط الاستجابة الحسية (SOR) — غالبًا يعانون من توتر شديد أو قلق أو حتى ذعر عند التعرض لأصوات عالية أو مفاجئة. هذا يُسمى فرط الحساسية السمعية أو الدفاعية السمعية. المحفزات الشائعة تشمل: المكنسة الكهربائية، الخلاط، مجفف الأيدي، الألعاب النارية، جرس المدرسة، الأماكن المزدحمة، الصراخ، والتلفزيون/الموسيقى بصوت عادي. الجهاز العصبي للطفل يدرك هذه الأصوات كتهديد، مما يثير استجابة الكر أو الفر. ردود الفعل قد تشمل: تغطية الأذنين، الصراخ، البكاء، الهروب، العدوانية، أو انهيار حسي كامل. هذا ليس سلوكًا سيئًا — إنه استجابة عصبية. نصائح عملية: (1) استخدم سماعات عازلة للضوضاء في الأماكن الصاخبة. (2) أعطِ الطفل تنبيهًا مسبقًا قبل الأصوات العالية. (3) وفّر مكانًا هادئًا وآمنًا في البيت والمدرسة. (4) التعريض التدريجي مع أخصائي تكامل حسي. (5) تقبّل مشاعر الطفل ولا تجبره على التعرض. صعوبات المعالجة السمعية تؤثر على 72% من أطفال التوحد وهي من المجالات ذات الأولوية في التدخل الحسي.",
+      "keywords": [
+        "loud", "sound", "noise", "stress", "anxiety",
+        "صوت عالي", "ضوضاء", "توتر", "قلق", "بيتوتر",
+        "بيزعل من الأصوات", "بيسكر ودانه", "بيصرخ",
+        "auditory", "سمعي", "hypersensitivity", "حساسية",
+        "مش بيتحمل الأصوات", "حساس من الضوضاء",
+        "صوت الخلاط", "صوت الكنسة", "بيتنرفز",
+        "عصبي", "بينهار", "meltdown", "panic",
+        "sensory overload", "spd", "symptoms", "أعراض"
+      ]
+    },
+    {
+      "id": "spd_adhd_detailed",
+      "topic": "comorbidity",
+      "title": "ADHD and Sensory Processing Disorder — Detailed Guide",
+      "title_ar": "فرط الحركة وتشتت الانتباه واضطراب المعالجة الحسية — دليل تفصيلي",
+      "content": "ADHD (Attention Deficit Hyperactivity Disorder) and SPD frequently co-occur, with 40-80% of children with ADHD showing sensory processing difficulties. Key overlapping symptoms: (1) Difficulty sitting still — in ADHD this is hyperactivity; in SPD it may be sensory seeking (vestibular/proprioceptive input). (2) Inattention — in ADHD it's executive dysfunction; in SPD it may be sensory overload making focus impossible. (3) Emotional dysregulation — both conditions cause meltdowns but for different reasons. How to tell the difference: ADHD children are impulsive across all settings; SPD children react specifically to sensory triggers. ADHD responds to medication; SPD responds to occupational therapy and sensory diets. Many children have BOTH conditions simultaneously. Most affected sensory areas in ADHD: emotional response modulation (80%), multisensory processing (73%), behavioral outcomes (76%), visual input modulation (69.2%), vestibular processing (61%). A comprehensive evaluation by a developmental pediatrician and occupational therapist is essential for accurate diagnosis and treatment planning.",
+      "content_ar": "اضطراب فرط الحركة وتشتت الانتباه (ADHD) واضطراب المعالجة الحسية (SPD) غالبًا يتواجدان معًا، حيث 40-80% من أطفال ADHD لديهم صعوبات في المعالجة الحسية. الأعراض المشتركة الرئيسية: (1) صعوبة الجلوس بهدوء — في ADHD هذا فرط حركة؛ في SPD قد يكون بحث حسي (مدخلات دهليزية/حس عميق). (2) ضعف الانتباه — في ADHD هو خلل تنفيذي؛ في SPD قد يكون الحمل الحسي الزائد يجعل التركيز مستحيلًا. (3) صعوبة تنظيم المشاعر — كلا الحالتين تسبب انهيارات لكن لأسباب مختلفة. كيف نفرّق بينهما: أطفال ADHD يكونون مندفعين في كل المواقف؛ أطفال SPD يتفاعلون تحديدًا مع محفزات حسية. ADHD يستجيب للأدوية؛ SPD يستجيب للعلاج الوظيفي والحمية الحسية. كثير من الأطفال لديهم الحالتين معًا. أكثر المجالات الحسية تأثرًا في ADHD: تنظيم الاستجابة الانفعالية (80%)، المعالجة المتعددة الحواس (73%)، النتائج السلوكية (76%)، تعديل المدخلات البصرية (69.2%)، المعالجة الدهليزية (61%). التقييم الشامل من طبيب أطفال تطوري وأخصائي علاج وظيفي ضروري للتشخيص الدقيق وخطة العلاج.",
+      "keywords": [
+        "adhd", "فرط حركة", "تشتت انتباه", "نقص انتباه",
+        "attention deficit", "hyperactivity",
+        "مش بيركز", "مش قادر يركز", "بيتحرك كتير",
+        "مش بيقعد", "مندفع", "impulsive",
+        "فرق بين", "difference", "overlap",
+        "comorbidity", "ارتباط", "تشخيص", "diagnosis",
+        "spd", "sensory", "حسي"
+      ]
+    },
+    {
+      "id": "spd_sensory_overload_anxiety",
+      "topic": "stress",
+      "title": "Sensory Overload, Meltdowns, and Anxiety in SPD",
+      "title_ar": "الحمل الحسي الزائد والانهيار والقلق في اضطراب المعالجة الحسية",
+      "content": "Sensory overload occurs when the brain receives more sensory input than it can process. This is very common in SPD children and can happen in malls, schools, parties, or any busy environment. Signs of sensory overload: irritability, crying, covering ears/eyes, withdrawal, aggression, freezing, or a full meltdown. A sensory meltdown is NOT a tantrum — it is an involuntary neurological response when the child's system is overwhelmed. The child cannot control it. Anxiety is a common comorbidity with SPD because the child lives in constant fear of unpredictable sensory experiences. This can lead to avoidance behaviors, school refusal, and social isolation. Management strategies: (1) Identify and avoid known triggers when possible. (2) Use a sensory diet — scheduled sensory activities throughout the day. (3) Create a calm-down kit (weighted blanket, fidget toys, noise-cancelling headphones). (4) Teach the child to recognize early warning signs. (5) Work with an occupational therapist on a sensory integration program. (6) Never punish a meltdown — help the child regulate instead. SPD-related anxiety often improves significantly with proper sensory intervention.",
+      "content_ar": "الحمل الحسي الزائد يحدث عندما يستقبل الدماغ مدخلات حسية أكثر مما يستطيع معالجتها. هذا شائع جدًا عند أطفال اضطراب المعالجة الحسية ويمكن أن يحدث في المولات، المدارس، الحفلات، أو أي مكان مزدحم. علامات الحمل الحسي الزائد: عصبية، بكاء، تغطية الأذنين/العينين، انسحاب، عدوانية، تجمد، أو انهيار حسي كامل. الانهيار الحسي ليس نوبة غضب — هو استجابة عصبية لا إرادية عندما يكون جهاز الطفل العصبي مُثقلًا. الطفل لا يستطيع التحكم فيه. القلق من الأمراض المصاحبة الشائعة مع SPD لأن الطفل يعيش في خوف مستمر من التجارب الحسية غير المتوقعة. هذا قد يؤدي إلى سلوكيات تجنب، رفض المدرسة، والعزلة الاجتماعية. استراتيجيات التعامل: (1) حدد المحفزات المعروفة وتجنبها قدر الإمكان. (2) استخدم الحمية الحسية — أنشطة حسية مجدولة خلال اليوم. (3) جهّز حقيبة تهدئة (بطانية ثقيلة، ألعاب فيدجت، سماعات عازلة). (4) علّم الطفل يتعرف على علامات الإنذار المبكرة. (5) اعمل مع أخصائي علاج وظيفي على برنامج تكامل حسي. (6) لا تعاقب الطفل على الانهيار — ساعده ينظم نفسه بدلاً من ذلك. القلق المرتبط بـ SPD غالبًا يتحسن بشكل ملحوظ مع التدخل الحسي المناسب.",
+      "keywords": [
+        "overload", "meltdown", "anxiety", "stress",
+        "حمل حسي", "انهيار", "قلق", "توتر",
+        "بينهار", "بيتعب", "بيزعل", "نوبة",
+        "أماكن مزدحمة", "مولات", "مدرسة",
+        "بيتنرفز", "عصبي", "بيخاف",
+        "sensory overload", "انهيار حسي",
+        "تجنب", "avoidance", "withdrawal",
+        "calm", "تهدئة", "weighted blanket",
+        "sensory diet", "حمية حسية",
+        "spd", "symptoms", "أعراض", "management"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "conversations": {
+    "589c938d-ad4f-48df-97d6-6f27a33a6dc7": {
+      "created_at": "2026-04-20T22:58:36.543870",
+      "updated_at": "2026-04-20T22:59:13.792288",
+      "title": "Health questions"
+    },
+    "4c4e192b-6596-436c-aee2-d4c90a8e2cf9": {
+      "created_at": "2026-04-20T23:02:49.538544",
+      "updated_at": "2026-04-20T23:02:49.538544",
+      "title": "اهلا "
+    },
+    "66a4c420-a231-4010-8c35-c8a3aa55b413": {
+      "created_at": "2026-04-22T00:17:52.316044",
+      "updated_at": "2026-04-22T00:19:58.260463",
+      "title": "hi"
+    },
+    "4bf5160d-8133-4879-8e87-ea7a81e03140": {
+      "created_at": "2026-04-22T00:21:24.626774",
+      "updated_at": "2026-04-22T02:48:08.421698",
+      "title": "اهلا"
+    },
+    "b5ecec34-34f3-4791-bc91-917cc212a811": {
+      "created_at": "2026-04-22T02:55:37.005126",
+      "updated_at": "2026-04-22T02:55:45.937563",
+      "title": "What are cold symptoms?"
+    },
+    "8b34be6a-e0b8-481e-97a0-cda3293089bf": {
+      "created_at": "2026-04-22T02:57:43.623938",
+      "updated_at": "2026-04-23T19:41:23.573536",
+      "title": "What is Sensory Processing Disorder?"
+    }
+  },
+  "messages": {
+    "589c938d-ad4f-48df-97d6-6f27a33a6dc7": [
+      {
+        "role": "user",
+        "content": "ايه تطعيمات عمر شهرين؟",
+        "source": null,
+        "timestamp": "22:59",
+        "created_at": "2026-04-20T22:59:13.789324"
+      },
+      {
+        "role": "assistant",
+        "content": "📋 **التطعيمات في عمر 2 شهور:**\n\n🔴 **إجبارية:**\n• الدرن (BCG) (BCG) — جرعة واحدة عند الولادة\n• التهاب الكبد ب (Hepatitis B) — جرعة صفرية\n• شلل الأطفال الفموي (OPV) (OPV (Oral Polio Vaccine)) — جرعة صفرية\n• الدرن (BCG) - تأكيدي (BCG (Confirmatory)) — جرعة تأكيدية / إضافية\n• التهاب الكبد ب (الجرعة الثانية) (Hepatitis B (Dose 2)) — الثانية\n• شلل الأطفال الفموي (OPV) (OPV (Oral Polio Vaccine)) — جرعة صفرية\n• التطعيم السداسي (الجرعة الأولى) (Hexavalent (Dose 1)) — الأولى\n  يشمل: الثلاثي البكتيري (DTP)، هيموفلس بكتيريا (Hib)، التهاب الكبد ب (Hepatitis B)، شلل أطفال حقن (IPV)\n• شلل الأطفال الفموي (OPV) - الجرعة الأولى (OPV (Dose 1)) — الأولى\n• التطعيم السداسي (الجرعة الثانية) (Hexavalent (Dose 2)) — الثانية\n  يشمل: الثلاثي البكتيري (DTP)، هيموفلس بكتيريا (Hib)، التهاب الكبد ب (Hepatitis B)، شلل أطفال حقن (IPV)\n• شلل الأطفال الفموي (OPV) - الجرعة الثانية (OPV (Dose 2)) — الثانية\n\n🟡 **موصى بها:**\n• الفيروس المخلوي التنفسي (RSV) (RSV (Respiratory Syncytial Virus)) — جرعة اختيارية (جرعة اختيارية عند الولادة)\n• المكورات الرئوية (PCV) - الجرعة الأولى (PCV (Pneumococcal - Dose 1)) — الأولى (تطعيم موصى به وليس إجبارياً)\n• الروتا (الجرعة الأولى) (Rotavirus (Dose 1)) — الأولى (تطعيم فموي موصى به ضد فيروس الروتا)\n• المكورات الرئوية (PCV) - الجرعة الثانية (PCV (Pneumococcal - Dose 2)) — الثانية\n• الروتا (الجرعة الثانية) (Rotavirus (Dose 2)) — الثانية\n\n⚠️ استشر طبيب الأطفال قبل أي تطعيم.",
+        "source": "vaccination_database",
+        "timestamp": "22:59",
+        "created_at": "2026-04-20T22:59:13.792288"
+      }
+    ],
+    "4c4e192b-6596-436c-aee2-d4c90a8e2cf9": [],
+    "66a4c420-a231-4010-8c35-c8a3aa55b413": [
+      {
+        "role": "user",
+        "content": "hi",
+        "source": null,
+        "timestamp": "00:17",
+        "created_at": "2026-04-22T00:17:53.191409"
+      },
+      {
+        "role": "assistant",
+        "content": "تعذر الاتصال بـ LM Studio. تأكد إنه شغال على البورت 1234",
+        "source": "ai_model",
+        "timestamp": "00:17",
+        "created_at": "2026-04-22T00:17:55.272079"
+      },
+      {
+        "role": "user",
+        "content": "hi",
+        "source": null,
+        "timestamp": "00:18",
+        "created_at": "2026-04-22T00:18:52.290818"
+      },
+      {
+        "role": "assistant",
+        "content": "تعذر الاتصال بـ LM Studio. تأكد إنه شغال على البورت 1234",
+        "source": "ai_model",
+        "timestamp": "00:18",
+        "created_at": "2026-04-22T00:18:54.369961"
+      },
+      {
+        "role": "user",
+        "content": "hi",
+        "source": null,
+        "timestamp": "00:19",
+        "created_at": "2026-04-22T00:19:55.339736"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?",
+        "source": "ai_model",
+        "timestamp": "00:19",
+        "created_at": "2026-04-22T00:19:58.260463"
+      }
+    ],
+    "4bf5160d-8133-4879-8e87-ea7a81e03140": [
+      {
+        "role": "user",
+        "content": "اهلا",
+        "source": null,
+        "timestamp": "00:21",
+        "created_at": "2026-04-22T00:21:27.022749"
+      },
+      {
+        "role": "assistant",
+        "content": "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+        "source": "ai_model",
+        "timestamp": "00:21",
+        "created_at": "2026-04-22T00:21:28.879551"
+      },
+      {
+        "role": "user",
+        "content": "تعرف اي عن اضطراب المعالجه الحسيه",
+        "source": null,
+        "timestamp": "00:21",
+        "created_at": "2026-04-22T00:21:54.823743"
+      },
+      {
+        "role": "assistant",
+        "content": "نعم، أعرف بعض المعلومات حول اضطراب المعالجة الحسية (SPD). إنه نوع من الاختلالات العصبية التي تؤثر على كيفية استقبال الدماغ للبيانات الحسية والرد عليها. يمكن أن يظهر هذا الاضطراب في العديد من الأعراض مثل عدم القدرة على التعامل مع التحديات الحسية، أو الشعور بالقلق الشديد عند مواجهة بعض الأصوات أو الألوان.\n\nإذا كنت تشك في أن طفلك قد يكون لديه اضطراب المعالجة الحسية، فمن الجيد استشارة أخصائي الأطفال أو متخصص في مجال الصحة النفسية. هناك العديد من الاستراتيجيات التي يمكن استخدامها لمساعدة الأطفال الذين يعانون من هذا الاضطراب، مثل تقنيات التهدئة والتدريب على التعامل مع الأصوات والألوان.\n\nتذكر دائمًا أن هذه المعلومات ليست 替换医生的建议。如果你有任何疑虑，最好咨询专业的医疗人员以获得准确的信息和帮助。",
+        "source": "ai_model",
+        "timestamp": "00:22",
+        "created_at": "2026-04-22T00:22:18.403649"
+      },
+      {
+        "role": "user",
+        "content": "اهلا",
+        "source": null,
+        "timestamp": "00:26",
+        "created_at": "2026-04-22T00:26:13.694632"
+      },
+      {
+        "role": "assistant",
+        "content": "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+        "source": "ai_model",
+        "timestamp": "00:26",
+        "created_at": "2026-04-22T00:26:15.893813"
+      },
+      {
+        "role": "user",
+        "content": "عايز التطعيمات لطفل ٩ شهور",
+        "source": null,
+        "timestamp": "00:32",
+        "created_at": "2026-04-22T00:32:09.623198"
+      },
+      {
+        "role": "assistant",
+        "content": "📋 **التطعيمات في عمر 9 شهور:**\n\n🔴 **إجبارية:**\n• التطعيم السداسي (الجرعة الثالثة) (Hexavalent (Dose 3)) — الثالثة\n  يشمل: الثلاثي البكتيري (DTP)، هيموفلس بكتيريا (Hib)، التهاب الكبد ب (Hepatitis B)، شلل أطفال حقن (IPV)\n• شلل الأطفال الفموي (OPV) - الجرعة الثالثة (OPV (Dose 3)) — الثالثة\n• الحصبة (الجرعة الأولى) (Measles (Dose 1)) — الأولى\n• شلل الأطفال الفموي (OPV) - الجرعة الرابعة (OPV (Dose 4)) — الرابعة\n• الثلاثي الفيروسي MMR (الجرعة الأولى) (MMR (Measles, Mumps, Rubella - Dose 1)) — الأولى\n• شلل الأطفال الفموي (OPV) - منشطة (OPV (Booster 1)) — منشطة\n\n🟡 **موصى بها:**\n• المكورات الرئوية (PCV) - الجرعة الثالثة (PCV (Pneumococcal - Dose 3)) — الثالثة\n• الروتا (الجرعة الثالثة) (Rotavirus (Dose 3)) — الثالثة (بعض أنواع لقاح الروتا تكون جرعتين فقط وبعضها ثلاث جرعات)\n• الإنفلونزا الموسمية (Influenza (Seasonal)) — سنوياً (تُعطى سنوياً بدءاً من عمر 6 شهور)\n• كوفيد-19 (COVID-19) — حسب التوصيات (حسب التوصيات الرسمية المحدثة)\n• الفيروس المخلوي التنفسي (للحالات عالية الخطورة) (RSV (High Risk Cases)) — حسب الحالة (للحالات عالية الخطورة فقط)\n• الحمى الشوكية (رباعي مقترن) - الجرعة الأولى (Meningococcal (Conjugate - Dose 1)) — الأولى (تطعيم موصى به)\n• هيموفلس بكتيريا (Hib) - منشطة (Hib (Booster)) — منشطة (تطعيم منشط موصى به في الفترة من 12 إلى 15 شهر)\n• المكورات الرئوية (PCV) - منشطة (PCV (Pneumococcal - Booster)) — منشطة (جرعة منشطة بعد السلسلة الأساسية (12-15 شهر))\n• التهاب الكبد أ (الجرعة الأولى) (Hepatitis A (Dose 1)) — الأولى\n• الجديري المائي (الجرعة الأولى) (Varicella / Chicken Pox (Dose 1)) — الأولى\n• الحمى الشوكية (رباعي مقترن) - الجرعة الثانية (Meningococcal (Conjugate - Dose 2)) — الثانية\n\n⚠️ استشر طبيب الأطفال قبل أي تطعيم.",
+        "source": "vaccination_database",
+        "timestamp": "00:32",
+        "created_at": "2026-04-22T00:32:09.643658"
+      },
+      {
+        "role": "user",
+        "content": "قدامي حاله اغماء سكر اعمل اي",
+        "source": null,
+        "timestamp": "00:36",
+        "created_at": "2026-04-22T00:36:50.801991"
+      },
+      {
+        "role": "assistant",
+        "content": "إذا كان لديك حالة من الغموض أو السكتة الدماغية، يجب أن تتوجه إلى المستشفى الفوري أو الاتصال بالخدمات الطارئة في مصر (123) فوراً. هذه الحالة قد تكون علامة على وجود مشكلة صحية خطيرة.\n\nإذا كنت تواجه أعراض مثل الغموض أو السكتة الدماغية، يجب أن تستجيب بسرعة:\n\n1. **الحفاظ على الهدوء:** حاول البقاء هادئًا حتى الوصول إلى المستشفى.\n2. **الأمان:** قم بإزالة أي شيء قد يسبب الإصابة في حالة الغموض أو السكتة الدماغية، مثل الأشياء القاسية أو الحوائط القريبة.\n3. **الاتصال بالإنقاذ:** اتصل فوراً بالخدمات الطارئة (123) أو اذهب إلى المستشفى أقرب.\n\nتذكر دائمًا أن هذه الإرشادات عامة وتحتاج إلى استشارة طبية متخصصة للحصول على الرعاية المناسبة.",
+        "source": "ai_model",
+        "timestamp": "00:37",
+        "created_at": "2026-04-22T00:37:18.242920"
+      },
+      {
+        "role": "user",
+        "content": "اهلا",
+        "source": null,
+        "timestamp": "00:42",
+        "created_at": "2026-04-22T00:42:17.956921"
+      },
+      {
+        "role": "assistant",
+        "content": "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+        "source": "ai_model",
+        "timestamp": "00:42",
+        "created_at": "2026-04-22T00:42:20.211248"
+      },
+      {
+        "role": "user",
+        "content": "اهلا",
+        "source": null,
+        "timestamp": "02:47",
+        "created_at": "2026-04-22T02:47:52.326040"
+      },
+      {
+        "role": "assistant",
+        "content": "تعذر الاتصال بـ LM Studio. تأكد إنه شغال على البورت 1234",
+        "source": "ai_model",
+        "timestamp": "02:47",
+        "created_at": "2026-04-22T02:47:54.427717"
+      },
+      {
+        "role": "user",
+        "content": "اهلا",
+        "source": null,
+        "timestamp": "02:48",
+        "created_at": "2026-04-22T02:48:03.603994"
+      },
+      {
+        "role": "assistant",
+        "content": "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+        "source": "ai_model",
+        "timestamp": "02:48",
+        "created_at": "2026-04-22T02:48:08.421698"
+      }
+    ],
+    "b5ecec34-34f3-4791-bc91-917cc212a811": [
+      {
+        "role": "user",
+        "content": "What are cold symptoms?",
+        "source": null,
+        "timestamp": "02:55",
+        "created_at": "2026-04-22T02:55:37.948465"
+      },
+      {
+        "role": "assistant",
+        "content": "Colds usually cause symptoms like runny or stuffy nose, coughing, sneezing, sore throat, and mild fever. If you have these symptoms, it's best to rest and drink plenty of fluids. If they last more than a week or get worse, see a doctor.",
+        "source": "ai_model",
+        "timestamp": "02:55",
+        "created_at": "2026-04-22T02:55:45.937563"
+      }
+    ],
+    "8b34be6a-e0b8-481e-97a0-cda3293089bf": [
+      {
+        "role": "user",
+        "content": "What is Sensory Processing Disorder?",
+        "source": null,
+        "timestamp": "02:57",
+        "created_at": "2026-04-22T02:57:44.583859"
+      },
+      {
+        "role": "assistant",
+        "content": "**What is Sensory Processing Disorder (SPD)?**\nSensory Processing Disorder (SPD) is a dysfunction affecting the adequate reception, modulation, integration, discrimination, or organization of stimuli coming from senses. SPD is now recognized as a common feature of ASD in DSM-V. It is a neurodevelopmental processing difference, not a disease. It involves how the brain receives and responds to sensory input. SPD is present across multiple neurodevelopmental conditions, not exclusively in autism. Sensory signs are often the first clinical symptoms to appear, and early intervention is critical for best outcomes.\n\n**Neurobiological Basis of SPD**\nSPD involves several brain regions: brainstem (early maturation), cerebellum (balance and coordination), prefrontal cortex (executive control), sensory cortices, and subcortical-cortical connections. Early-maturing regions (sensory-motor) compound developmental disruptions in later-developing areas (frontal and limbic). There is a strong bidirectional relationship between sensory processing and executive functioning, with sensory-motor issues contributing to executive dysfunction. Deficits in left hemisphere white matter are responsible for language, motor, and behavioral disorder comorbidities.\n\n**SPD and Executive Functioning**\nThere is a strong bidirectional relationship between sensory processing and executive functioning. Key findings: sensory-motor issues contribute to executive dysfunction, bottom-up processing affects top-down control, shared variance ranges from 10-30% with age. Structural model results show: sensory to executive everyday functioning β = 0.64 (p < 0.001), laboratory tasks β = 0.72 (p < 0.001), variance explained 41-52%. Motor to executive everyday functioning β = 0.74 (p < 0.001), laboratory tasks β = 0.68 (p < 0.001), variance explained 47-54%. Motor training may improve executive functioning.\n\n⚠️ This is educational information, not a diagnosis. Please consult a specialist.",
+        "source": "spd_database",
+        "timestamp": "02:57",
+        "created_at": "2026-04-22T02:57:44.590658"
+      },
+      {
+        "role": "user",
+        "content": "بالعربي",
+        "source": null,
+        "timestamp": "02:58",
+        "created_at": "2026-04-22T02:58:56.852805"
+      },
+      {
+        "role": "assistant",
+        "content": "**ما هو متلازمة التحكم في المعلومات الحسية (SPD)?**\nمتلازمة التحكم في المعلومات الحسية (SPD) هي حالة تتعلق بالقدرة على استقبال، تنظيم، تكامل، تمييز، أو تنظيم� المحفزات الحسية التي تصل إلى الدماغ. تُعتبر متلازمة التحكم في المعلومات الحسية حالياً مكوناً مناسباً للاعتلالات ذات الصلة بالتوحد في دليل التشخيص والعلاج (DSM-V). هي اختلل فرعي للتحكم في المعلومات الحسية، وليس مرضًا. تتعلق بكيفية استقبال الدماغ وردود فعله على المحفزات الحسية.\n\nتظهر علامات متلازمة التحكم في المعلومات الحسية عادةً كالأعراض الأولى للتشخيص، وتكون مبكرة جداً. العلاج المبكر هو حاسم لنتائج أفضل. تُعتبر متلازمة التحكم في المعلومات الحسية حالة فرعية من الاضطرابات النفسية والسلوكية، وليس فقط حالة تتوحد.\n\n**الأساس النوروباليجي لمتلازمة التحكم في المعلومات الحسية**\nيتضمن أساس متلازمة التحكم في المعلومات الحسية عدة مناطق في الدماغ: القشرة البصرية (early maturation)، القشرة العصبية (balance and coordination)، القشرة الجبهية (executive control)، القشرة الحسية، والوصلات بين القشرة تحت القشرة والقشرة فوق القشرة. تظهر الدراسات الأولية أن هناك علاقة ثنائية قوية بين التحكم في المعلومات الحسية ووظائف التنفيذية، حيث يساهم اضطرابات التحكم في المعلومات الحسية في عدم كفاءة الوظائف التنفيذية.\n\n**متلازمة التحكم في المعلومات الحسية والعناصر التنفيذية**\nتوجد علاقة ثنائية قوية بين متلازمة التحكم في المعلومات الحسية ووظائف التنفيذية. النتائج الرئيسية تشير إلى أن: عوامل التحكم في المعلومات الحسية تؤثر على الوظائف التنفيذية اليومية β = 0.64 (p < 0.001)، ومهام المختبرات β = 0.72 (",
+        "source": "ai_model",
+        "timestamp": "02:59",
+        "created_at": "2026-04-22T02:59:52.578882"
+      },
+      {
+        "role": "user",
+        "content": "hi",
+        "source": null,
+        "timestamp": "19:36",
+        "created_at": "2026-04-23T19:36:53.820691"
+      },
+      {
+        "role": "assistant",
+        "content": "مرحبًا! كيف يمكنني مساعدتك اليوم؟ هل لديك أي أسئلة حول الصحة أو متلازمة التحكم في المعلومات الحسية (SPD)؟",
+        "source": "ai_model",
+        "timestamp": "19:37",
+        "created_at": "2026-04-23T19:37:01.213590"
+      },
+      {
+        "role": "user",
+        "content": "hi",
+        "source": null,
+        "timestamp": "19:40",
+        "created_at": "2026-04-23T19:40:45.015098"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today? Do you have any questions about health or Sensory Processing Disorder (SPD)?",
+        "source": "ai_model",
+        "timestamp": "19:40",
+        "created_at": "2026-04-23T19:40:48.387638"
+      },
+      {
+        "role": "user",
+        "content": "i wanna vaccins for 4 month child",
+        "source": null,
+        "timestamp": "19:41",
+        "created_at": "2026-04-23T19:41:07.747385"
+      },
+      {
+        "role": "assistant",
+        "content": "For a 4-month-old child in Egypt, the recommended vaccinations include:\n\n1. Diphtheria-Tetanus-Pertussis (DTaP) - This is part of the primary series and should be given at this age.\n2. Polio vaccine - Also part of the primary series for infants.\n3. Hepatitis B vaccine - Usually administered in a three-dose series, with the first dose often given shortly after birth.\n\nIt's important to consult with your pediatrician or healthcare provider to ensure that you are up-to-date on all recommended vaccinations and to confirm if there are any specific vaccines required based on local guidelines and the child’s health status. They can provide personalized advice tailored to your child's needs.",
+        "source": "ai_model",
+        "timestamp": "19:41",
+        "created_at": "2026-04-23T19:41:23.573536"
+      }
+    ]
+  }
+}
