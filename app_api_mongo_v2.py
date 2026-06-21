@@ -1575,7 +1575,7 @@ def api_delete_conversation(conversation_id):
 # Entrypoint
 # ═══════════════════════════════════════════════════════════════════════════
 if __name__ == "__main__":
-    # ✅ Fixed: single port resolution — Railway uses PORT, local uses FLASK_PORT
+    # ✅ Railway uses PORT, local uses FLASK_PORT fallback
     port = int(os.getenv("PORT", os.getenv("FLASK_PORT", "5000")))
     host = os.getenv("FLASK_HOST", "0.0.0.0")
 
@@ -1588,10 +1588,14 @@ if __name__ == "__main__":
     print(f"  Server binding  : http://{host}:{port}")
     print(f"  Auth            : X-User-ID header (upgrade to JWT in production)")
     print(f"  RAG Mode        : Chunks → LLM (v2 pipeline)")
+
     if NGROK_URL:
         print(f"  CORS origin     : {NGROK_URL}")
+
     if Swagger:
         print(f"  Swagger UI      : http://localhost:{port}/apidocs")
+
     print("=" * 60)
 
+    # 🚨 مهم: app.run فقط محليًا، مش في Railway
     app.run(host=host, port=port)
