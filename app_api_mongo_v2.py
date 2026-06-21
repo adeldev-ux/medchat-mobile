@@ -1594,8 +1594,6 @@ if __name__ == "__main__":
 
     if Swagger:
         print(f"  Swagger UI      : http://localhost:{port}/apidocs")
-
     print("=" * 60)
-
     # 🚨 مهم: app.run فقط محليًا، مش في Railway
     app.run(host=host, port=port)
