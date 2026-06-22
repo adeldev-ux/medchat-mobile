@@ -785,7 +785,7 @@ SYSTEM_MSG: Dict = {
         "\n"
         "═══ LANGUAGE (ABSOLUTE — ZERO TOLERANCE) ═══\n"
         "• You speak ONLY Arabic or English. No other language exists for you.\n"
-        "• NEVER output Chinese, French, German, Turkish, or ANY other language.\n"
+        "• NEVER output Chinese, Russian, French, German, Turkish, or ANY other language.\n"
         "• NEVER mix Arabic and English in the same response.\n"
         "• If [REPLY IN ARABIC ONLY] → every single word must be Arabic.\n"
         "• If [REPLY IN ENGLISH ONLY] → every single word must be English.\n"
@@ -865,7 +865,7 @@ LANGUAGE_GUARD: str = (
     "1. Read the [REPLY IN ARABIC ONLY] or [REPLY IN ENGLISH ONLY] tag in the user message.\n"
     "2. Your ENTIRE response must be in that ONE language only.\n"
     "3. NEVER mix Arabic and English in the same response.\n"
-    "4. NEVER output Chinese (中文), French, German, or ANY other language.\n"
+    "4. NEVER output Chinese (中文), Russian (русский), French, German, or ANY other language.\n"
     "5. If you catch yourself writing in the wrong language, STOP and rewrite.\n"
     "6. Medical abbreviations (BCG, MMR, OPV, SPD, ADHD) are allowed in any language.\n"
     "VIOLATION = SYSTEM FAILURE. Comply absolutely."
@@ -1062,7 +1062,7 @@ def _build_messages(user_msg: str, history: List[Dict],
     return messages
  
  
-# ── Regex for CJK character ranges (Chinese/Japanese/Korean) ─────────────
+# ── Regex for non-allowed scripts ─────────────────────────────────────────
 _CJK_RE = re.compile(
     r"[\u4E00-\u9FFF"       # CJK Unified Ideographs
     r"\u3400-\u4DBF"        # CJK Unified Ideographs Extension A
@@ -1074,6 +1074,7 @@ _CJK_RE = re.compile(
     r"\uF900-\uFAFF]+",    # CJK Compatibility Ideographs
     re.UNICODE,
 )
+_CYRILLIC_RE = re.compile(r"[\u0400-\u04FF\u0500-\u052F]+", re.UNICODE)  # Russian, Ukrainian, etc.
 _ARABIC_RE = re.compile(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF]")
 _LATIN_RE  = re.compile(r"[a-zA-Z]")
 
@@ -1086,8 +1087,9 @@ def _enforce_language(reply: str, expected_lang: str) -> str:
        medical abbreviations like BCG, MMR, SPD, etc.).
     3. If expected_lang is 'en' → strip Arabic characters entirely.
     """
-    # ── Step 1: Remove any CJK characters ──────────────────────────────────
+    # ── Step 1: Remove any CJK + Cyrillic characters ──────────────────────
     reply = _CJK_RE.sub("", reply)
+    reply = _CYRILLIC_RE.sub("", reply)
 
     # ── Step 2: Remove wrong-language content ──────────────────────────────
     if expected_lang == "en":
